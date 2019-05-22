@@ -1,0 +1,112 @@
+.videowrapper {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-bottom: 50px;
+    background: #000;
+}
+
+.videowrapper iframe,
+.videowrapper video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.videowrapper video:focus {
+    outline: 0;
+}
+
+
+/** Use .sticky */
+
+.videowrapper .is-sticky {
+    position: fixed;
+    right: 3px;
+    top: 30px;
+    bottom: auto;
+    left: auto;
+    max-width: 280px;
+    max-height: 158px;
+    width: 280px;
+    height: 158px;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    z-index: 1001;
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.close-button {
+    position: fixed;
+    box-sizing: border-box;
+    display: block;
+    right: 24px;
+    top: 15px;
+    bottom: auto;
+    left: auto;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none;
+    z-index: 1002;
+}
+
+.close-button:before,
+.close-button:after {
+    width: 20px;
+    height: 5px;
+    transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    background-color: #4F2121;
+    transition: all 0.2s ease-out;
+}
+
+.close-button:after {
+    transform: rotate(45deg);
+}
+
+.close-button:hover:after {
+    transform: rotate(-45deg);
+}
+
+.close-button:hover:before {
+    transform: rotate(45deg);
+}

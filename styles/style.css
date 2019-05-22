@@ -1,0 +1,18 @@
+.notice {
+    background-color: #fc3;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+    font-size: .9em;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+.wrapper {
+    display: block;
+    margin: 8px;
+}
