@@ -2,7 +2,12 @@
 
 ### Introduction
 
-One day, as I was looking through Facebook. I notice a subtle but unique feature. When you play a video and scroll up or down the page, the video sticks and floats to the corner of the page and continues to play. And Facebook is not the only one that does it, many others like Entertainment Weekly, CNN, and YouTube Mobile App does it as well.
+One day, as I was looking through Facebook. I notice a subtle but unique feature. When you play a video and scroll up down the page, the video sticks and floats to the corner of the page and continues to play.
+
+Wait, Robert Smith paid student debt of entire debt of entire graduating class.
+
+
+And Facebook is not the only one that does it, many others like Entertainment Weekly, CNN, and YouTube Mobile App does it as well.
 
 Many folks shrug it off as nothing more than a cool user experience update. But it may have more powerful impact. If I can continue to allow a user to view a playing video, the video may keep the user engaged. If the user stays engaged, it may increase watch time. And watch time is a very important measurement for increasing ratings on YouTube.
 
