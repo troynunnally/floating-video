@@ -1,4 +1,7 @@
 
+### Demos
+For live demo, go to https://techtwins.co, play a video, and scroll down the page.
+Sample Page: https://techtwins.co/demos/floating-video/
 
 ### Introduction
 
@@ -15,6 +18,7 @@ So my tip is this: If you have a website with a lot of video content like Techtw
 To help you execute it, we have rebuilt the sticky floating video and we are giving an example codebase for free so that you can implement in your own web app or site. If you do not have a tech guy on your team to implement. No worries. We have a team of developers ready to help you.
 
 To get access to the code or see an example, follow the link below. If you like this video, hit the like button. Also, to be the first to get cool tips, please subscribe. Now, go execute. Tech Twins out.
+
 
 ### Installation steps
 
